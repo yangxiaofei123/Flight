@@ -1,0 +1,26 @@
+﻿{
+"res":{
+	"playerboom0000": {"x":0,"y":0,"w":102,"h":126},
+	"playerboom0001": {"x":102,"y":0,"w":102,"h":126},
+	"playerboom0002": {"x":0,"y":126,"w":102,"h":126},
+	"playerplane0000": {"x":102,"y":126,"w":102,"h":126},
+	"playerplane0001": {"x":0,"y":252,"w":102,"h":126}
+},
+"frames": {
+	"playerboom": {
+		"totalFrame": 3,
+		"childrenFrame": [
+			{"res":"playerboom0000","x":0,"y":0},
+			{"res":"playerboom0001","x":0,"y":0},
+			{"res":"playerboom0002","x":0,"y":0,"action":"movie_over"}
+		]
+	},
+	"playerplane": {
+		"totalFrame": 2,
+		"childrenFrame": [
+			{"res":"playerplane0000","x":0,"y":0},
+			{"res":"playerplane0001","x":0,"y":0}
+		]
+	}
+}
+}
